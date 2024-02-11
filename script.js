@@ -5,9 +5,7 @@ function mergeSort(array) {
 
   const mid = Math.floor(array.length / 2);
   const left = mergeSort(array.slice(0, mid));
-  [2, 3];
   const right = mergeSort(array.slice(mid));
-  [1, 13];
   return merge(left, right);
 }
 
